@@ -1,0 +1,4 @@
+node_modules
+src/css/*.css
+src/fonts/*
+src/js/*.js
