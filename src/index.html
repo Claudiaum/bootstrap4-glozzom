@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA="
+      crossorigin="anonymous"
+    />
+
     <title>Glozzom Bootstrap 4 Theme</title>
   </head>
   <body>
@@ -176,24 +183,161 @@
     <!-- Video Play Section -->
     <section id="video-play">
       <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container pt-5">
-              <a
-                href="#"
-                class="video"
-                data-video="https://www.youtube.com/embed/HnwsG9a5riA"
-                data-toggle="modal"
-                data-target="#videoModal"
-              >
-                <i class="fa fa-play"></i>
-              </a>
-              <h1>Veja O Que Nós Fazemos</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="container pt-5">
+                <a
+                  href="#"
+                  class="video"
+                  data-video="https://www.youtube.com/embed/HnwsG9a5riA"
+                  data-toggle="modal"
+                  data-target="#videoModal"
+                >
+                  <i class="fa fa-play"></i>
+                </a>
+                <h1>Veja O Que Nós Fazemos</h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h1 class="text-center">Galeria de Fotos</h1>
+        <p class="text-center">Confira nossas fotos</p>
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <a
+              href="http://lorempixel.com/560/560/business/1"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+            >
+              <img
+                src="http://lorempixel.com/400/400/business/1"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="http://lorempixel.com/560/560/business/2"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+            >
+              <img
+                src="http://lorempixel.com/400/400/business/2"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="http://lorempixel.com/560/560/business/3"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+            >
+              <img
+                src="http://lorempixel.com/400/400/business/3"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a
+              href="http://lorempixel.com/560/560/business/4"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+            >
+              <img
+                src="http://lorempixel.com/400/400/business/4"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="http://lorempixel.com/560/560/business/5"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+            >
+              <img
+                src="http://lorempixel.com/400/400/business/5"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="http://lorempixel.com/560/560/business/6"
+              data-toggle="lightbox"
+              data-gallery="img-gallery"
+            >
+              <img
+                src="http://lorempixel.com/400/400/business/6"
+                alt=""
+                class="img-fluid"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="text-center p-5 bg-inverse text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Increva-se Na Nossa Newsletter</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+              labore nostrum maxime sit quaerat assumenda voluptas vel eveniet
+              minima quas.
+            </p>
+            <form class="form-inline justify-content-center">
+              <label class="sr-only" for="name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control mb-2 mr-sm-2 mb-sm-0"
+                placeholder="Seu Nome"
+              />
+              <label class="sr-only" for="email">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control mb-2 mr-sm-2 mb-sm-0"
+                placeholder="Seu E-mail"
+              />
+              <button class="btn btn-primary" type="submit">
+                Inscrever
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Direitos Autorais &copy; 2020 Glozzom</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Video Modal -->
     <div class="modal fade" id="videoModal">
@@ -218,6 +362,11 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"
+      integrity="sha256-jGAkJO3hvqIDc4nIY1sfh/FPbV+UK+1N+xJJg6zzr7A="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
   </body>
 </html>
