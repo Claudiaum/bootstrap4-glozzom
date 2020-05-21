@@ -75,3 +75,19 @@ $dark-overlay: rgba(0, 0, 0, 0.7);
   background-color: #000;
   color: #fff;
 }
+
+#page-header {
+  background: url("../img/android-android-phone-cell-phone-cellphone-404280.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px solid #eee;
+  height: 200px;
+  padding-top: 50px;
+}
+
+#about {
+  .about-img {
+    margin-top: -50px;
+  }
+}
