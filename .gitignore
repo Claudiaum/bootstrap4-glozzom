@@ -1,6 +1,8 @@
 node_modules
-src/css/*.css
+src/css/bootstrap.css
+src/css/font-awesome.min.css
 src/fonts/*
+!src/fonts/slick*
 src/js/bootstrap.min.js
 src/js/jquery.min.js
 src/js/tether.min.js

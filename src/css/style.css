@@ -1,0 +1,71 @@
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/android-android-phone-cell-phone-cellphone-404280.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/close-up-photo-of-black-samsung-phone-1447254.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/space-gray-iphone-8-on-brown-surface-1275227.jpg");
+  background-size: cover; }
+
+.fa {
+  font-size: 55px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/light-trails-on-highway-at-night-315938.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #fff; }
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/architect-architecture-blueprint-build-271667.jpg");
+  background-position: 0 -300px;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+#main-footer {
+  background-color: #000;
+  color: #fff; }
+
+#page-header {
+  background: url("../img/android-android-phone-cell-phone-cellphone-404280.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px solid #eee;
+  height: 200px;
+  padding-top: 50px; }
+
+#about .about-img {
+  margin-top: -50px; }
