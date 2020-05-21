@@ -1,4 +1,6 @@
 node_modules
 src/css/*.css
 src/fonts/*
-src/js/*.js
+src/js/bootstrap.min.js
+src/js/jquery.min.js
+src/js/tether.min.js
