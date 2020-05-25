@@ -107,3 +107,21 @@ $dark-overlay: rgba(0, 0, 0, 0.7);
     background: #333;
   }
 }
+
+#colaboradores {
+  .image {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+
+    img {
+      position: absolute;
+      object-fit: cover;
+      max-width: 100%;
+      max-height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+}
